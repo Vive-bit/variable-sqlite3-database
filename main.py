@@ -1,22 +1,14 @@
 import pygame
 
+pygame.init()
+# Window setup
+window_width = 700
+window_height = 700
+window = pygame.display.set_mode((window_width, window_height))
+surface = window
 
-class Start:
-    def __init__(self):
-        pygame.init()
-
-        # Window setup
-        self.window_width = 1920
-        self.window_height = 1080
-        self.window = pygame.display.set_mode((self.window_width, self.window_height))
-        self.surface = self.window
-
-        # Title
-        pygame.display.set_caption("Halle 7")
-
-        # Define the class from a file / run()
-
-        self.run()
+# Title
+pygame.display.set_caption("Halle7")
 
     def run(self):
         running = True
@@ -29,18 +21,19 @@ class Start:
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                     running = False
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-                    pass
+                    Dices(self).update()
+
+
+
             # Default setting
-            self.clock = pygame.time.Clock()
-            self.delta_time = self.clock.tick(60) / 1000  # FPS setting = 60 FPS
-            self.window.fill((255, 255, 255))  # Background (Before updating [drawing] on surface)
+            clock = pygame.time.Clock()
+            delta_time = clock.tick(60) / 1000  # FPS setting = 60 FPS
+            window.fill((0, 0, 0))  # Background (Before updating [drawing] on surface)
 
             # Update
             # print(mouse)
-
+            dices.update()
 
             pygame.display.update()
     pygame.quit()
 
-
-game = Start()

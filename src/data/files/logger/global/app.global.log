@@ -35,6 +35,7 @@
 2024-04-29 20:40:04 - global - __init__.py:8 - INFO      | [modules.__init__.py] Fetched app components: homescreen.py
 2024-04-29 20:40:04 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
 2024-04-29 20:40:05 - global - __init__.py:25 - CRITICAL  | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: name 'Dices' is not defined
+<<<<<<< Updated upstream
 2024-04-29 21:17:51 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
 2024-04-29 21:17:51 - global - core.py:3 - INFO      | [SETUP] Program initializing...
 2024-04-29 21:17:51 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
@@ -100,3 +101,48 @@
 2024-04-29 21:37:03 - global - core.py:3 - INFO      | [SETUP] Program initializing...
 2024-04-29 21:37:03 - global - dbmanager.py:21 - INFO      | [src.classes.db.dbmanager.py] Database was loaded/created!
 2024-04-29 21:37:03 - global - dbmanager.py:27 - INFO      | [src.classes.db.dbmanager.py] src/data/files/db/local.db detected! Loading the Database..
+=======
+2024-04-29 21:10:15 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:10:15 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:10:15 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 21:10:15 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:10:15 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: run() missing 1 required positional argument: 'self' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:10:15 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+2024-04-29 21:11:18 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:11:18 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:11:18 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 21:11:18 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:11:19 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: name 'self' is not defined [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:11:19 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+2024-04-29 21:12:04 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:12:04 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:12:04 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 21:12:04 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:12:44 - global - __init__.py:18 - INFO      | [game.__init__.py] Successfully imported website component: homescreen.py
+2024-04-29 21:23:00 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:23:00 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:23:00 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 21:23:00 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:23:00 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: unexpected indent (main.py, line 36) [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:23:00 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+2024-04-29 21:23:40 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:23:40 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:23:41 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: video system not initialized [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:23:41 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+2024-04-29 21:25:07 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:25:07 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:25:08 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: video system not initialized [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:25:08 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+2024-04-29 21:25:35 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:25:35 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:25:35 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: video system not initialized [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:25:35 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+2024-04-29 21:26:17 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:26:17 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:26:18 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: video system not initialized [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:26:18 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+2024-04-29 21:28:44 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:28:44 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:28:45 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: video system not initialized [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:28:45 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/game'
+>>>>>>> Stashed changes
