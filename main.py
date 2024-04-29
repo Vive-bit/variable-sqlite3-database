@@ -1,7 +1,8 @@
 import pygame
-from dice import Dices
 
 print("hai")
+print("saddsadsaasd")
+
 class Start:
     def __init__(self):
         pygame.init()
