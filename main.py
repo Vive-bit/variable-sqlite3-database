@@ -17,6 +17,11 @@ def checker():
         x=game.homescreen.draw()
         if x==True:
             game.homescreen.update()
+    elif screen == "settingscreen":
+        import game.settingscreen
+        x = game.homescreen.draw()
+        if x == True:
+            game.homescreen.update()
 
 def run():
         running = True
