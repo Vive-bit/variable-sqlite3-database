@@ -35,3 +35,68 @@
 2024-04-29 20:40:04 - global - __init__.py:8 - INFO      | [modules.__init__.py] Fetched app components: homescreen.py
 2024-04-29 20:40:04 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
 2024-04-29 20:40:05 - global - __init__.py:25 - CRITICAL  | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: name 'Dices' is not defined
+2024-04-29 21:17:51 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:17:51 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:17:51 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:17:51 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:21:30 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:21:30 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:21:30 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:21:30 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:21:35 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported website component: homescreen.py
+2024-04-29 21:21:35 - global - dbmanager.py:13 - CRITICAL  | >> [src.classes.db.dbmanager.py] database file ("src/data/files/db/local.db") not found!
+2024-04-29 21:21:35 - global - dbmanager.py:15 - CRITICAL  | >> [src.classes.db.dbmanager.py] Creating database file in "src/data/files/db/local.db" > FOLDERS ARE NOT AUTOMATICIALLY CREATED; RESULT IN ERROR
+2024-04-29 21:21:35 - global - dbmanager.py:23 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] Database couldn't be loaded/created!
+[sqlite3 Database] [WARNING] ERROR: unable to open database file
+2024-04-29 21:21:35 - global - dbmanager.py:31 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] "src/data/files/db/local.db" not detected!
+2024-04-29 21:23:30 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:23:30 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:23:30 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:23:30 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:23:36 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported website component: homescreen.py
+2024-04-29 21:23:36 - global - dbmanager.py:13 - CRITICAL  | >> [src.classes.db.dbmanager.py] database file ("src/data/files/db/local.db") not found!
+2024-04-29 21:23:36 - global - dbmanager.py:15 - CRITICAL  | >> [src.classes.db.dbmanager.py] Creating database file in "src/data/files/db/local.db" > FOLDERS ARE NOT AUTOMATICIALLY CREATED; RESULT IN ERROR
+2024-04-29 21:23:36 - global - dbmanager.py:23 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] Database couldn't be loaded/created!
+[sqlite3 Database] [WARNING] ERROR: unable to open database file
+2024-04-29 21:23:36 - global - dbmanager.py:31 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] "src/data/files/db/local.db" not detected!
+2024-04-29 21:26:35 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:26:35 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:26:35 - global - dbmanager.py:13 - CRITICAL  | >> [src.classes.db.dbmanager.py] database file ("local.db") not found!
+2024-04-29 21:26:35 - global - dbmanager.py:15 - CRITICAL  | >> [src.classes.db.dbmanager.py] Creating database file in "local.db" > FOLDERS ARE NOT AUTOMATICIALLY CREATED; RESULT IN ERROR
+2024-04-29 21:26:35 - global - dbmanager.py:23 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] Database couldn't be loaded/created!
+[sqlite3 Database] [WARNING] ERROR: unable to open database file
+2024-04-29 21:26:35 - global - dbmanager.py:31 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] "local.db" not detected!
+2024-04-29 21:26:35 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched app components: homescreen.py
+2024-04-29 21:26:35 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:26:39 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported website component: homescreen.py
+2024-04-29 21:29:09 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:29:09 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:29:09 - global - dbmanager.py:13 - CRITICAL  | >> [src.classes.db.dbmanager.py] database file ("src/data/files/db/local.db") not found!
+2024-04-29 21:29:09 - global - dbmanager.py:15 - CRITICAL  | >> [src.classes.db.dbmanager.py] Creating database file in "src/data/files/db/local.db" > FOLDERS ARE NOT AUTOMATICIALLY CREATED; RESULT IN ERROR
+2024-04-29 21:29:09 - global - dbmanager.py:23 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] Database couldn't be loaded/created!
+[sqlite3 Database] [WARNING] ERROR: unable to open database file
+2024-04-29 21:29:09 - global - dbmanager.py:31 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] "src/data/files/db/local.db" not detected!
+2024-04-29 21:29:09 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched components: homescreen.py
+2024-04-29 21:29:09 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:29:13 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported component: homescreen.py
+2024-04-29 21:30:48 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:30:48 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:30:48 - global - dbmanager.py:13 - CRITICAL  | >> [src.classes.db.dbmanager.py] database file ("src//data//files//db//local.db") not found!
+2024-04-29 21:30:48 - global - dbmanager.py:15 - CRITICAL  | >> [src.classes.db.dbmanager.py] Creating database file in "src//data//files//db//local.db" > FOLDERS ARE NOT AUTOMATICIALLY CREATED; RESULT IN ERROR
+2024-04-29 21:30:48 - global - dbmanager.py:23 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] Database couldn't be loaded/created!
+[sqlite3 Database] [WARNING] ERROR: unable to open database file
+2024-04-29 21:30:48 - global - dbmanager.py:31 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] "src//data//files//db//local.db" not detected!
+2024-04-29 21:30:48 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched components: homescreen.py
+2024-04-29 21:30:48 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 21:30:50 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported component: homescreen.py
+2024-04-29 21:34:25 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:34:25 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:34:25 - global - dbmanager.py:13 - CRITICAL  | >> [src.classes.db.dbmanager.py] database file ("src/data/files/db/local.db") not found!
+2024-04-29 21:34:25 - global - dbmanager.py:15 - CRITICAL  | >> [src.classes.db.dbmanager.py] Creating database file in "src/data/files/db/local.db" > FOLDERS ARE NOT AUTOMATICIALLY CREATED; RESULT IN ERROR
+2024-04-29 21:34:25 - global - dbmanager.py:23 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] Database couldn't be loaded/created!
+[sqlite3 Database] [WARNING] ERROR: unable to open database file
+2024-04-29 21:34:25 - global - dbmanager.py:31 - CRITICAL  | >> [src.classes.db.dbmanager.py] [!!!] "src/data/files/db/local.db" not detected!
+2024-04-29 21:37:03 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 21:37:03 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 21:37:03 - global - dbmanager.py:21 - INFO      | [src.classes.db.dbmanager.py] Database was loaded/created!
+2024-04-29 21:37:03 - global - dbmanager.py:27 - INFO      | [src.classes.db.dbmanager.py] src/data/files/db/local.db detected! Loading the Database..

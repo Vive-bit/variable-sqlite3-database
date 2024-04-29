@@ -9,4 +9,4 @@ from src.classes.configparser.fetch import provider as configData
 """
 
 class provider:
-    TEST_INFORMATION = str(config.get("TEST_INFORMATION", "TEST_INFORMATION_KEY"))
+    DATABASE_PATH = str(config.get("DATABASE", "DATABASE_PATH"))
