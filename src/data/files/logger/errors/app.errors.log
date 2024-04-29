@@ -1,0 +1,4 @@
+2024-04-29 20:31:03 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 20:33:56 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 20:40:04 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 20:40:05 - global - __init__.py:25 - CRITICAL  | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: name 'Dices' is not defined

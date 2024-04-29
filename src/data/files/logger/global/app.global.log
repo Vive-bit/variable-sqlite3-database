@@ -8,3 +8,30 @@
 2024-04-29 20:00:24 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
 2024-04-29 20:00:24 - global - core.py:3 - INFO      | [SETUP] Program initializing...
 2024-04-29 20:00:24 - global - core.py:6 - INFO      | zeile 3 code
+2024-04-29 20:20:07 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 20:20:07 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 20:22:46 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 20:22:46 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 20:25:33 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 20:25:33 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 20:25:33 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 20:31:03 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 20:31:03 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 20:31:03 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 20:31:03 - global - __init__.py:8 - INFO      | [modules.__init__.py] Fetched app components: homescreen.py
+2024-04-29 20:31:03 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 20:31:03 - global - __init__.py:23 - INFO      | [modules.__init__.py] Successfully imported website component: homescreen.py
+2024-04-29 20:33:56 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 20:33:56 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 20:33:56 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 20:33:56 - global - __init__.py:8 - INFO      | [modules.__init__.py] Fetched app components: homescreen.py
+2024-04-29 20:33:56 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 20:33:56 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 20:33:56 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 20:33:56 - global - __init__.py:23 - INFO      | [modules.__init__.py] Successfully imported website component: homescreen.py
+2024-04-29 20:40:04 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-04-29 20:40:04 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-04-29 20:40:04 - global - core.py:9 - INFO      | zeile 3 code
+2024-04-29 20:40:04 - global - __init__.py:8 - INFO      | [modules.__init__.py] Fetched app components: homescreen.py
+2024-04-29 20:40:04 - global - __init__.py:20 - ERROR     | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-04-29 20:40:05 - global - __init__.py:25 - CRITICAL  | [modules.__init__.py] [ERROR] Failed to import website component: homescreen.py | Error: name 'Dices' is not defined
