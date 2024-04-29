@@ -9,6 +9,8 @@ from src.classes.db.dbmanager import dataBaseClassManager as db
 ##############################
 import src.classes.db.dbmanager
 
+import main
+
 ### START game dir ###########
 import game
 ##############################

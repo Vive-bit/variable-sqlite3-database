@@ -1,4 +1,5 @@
 import pygame
+import time
 
 pygame.init()
 # Window setup
@@ -6,11 +7,18 @@ window_width = 700
 window_height = 700
 window = pygame.display.set_mode((window_width, window_height))
 surface = window
-
+screen = "homescreen"
 # Title
 pygame.display.set_caption("Halle7")
 
-    def run(self):
+def checker():
+    if screen == "homescreen":
+        import game.homescreen
+        x=game.homescreen.draw()
+        if x==True:
+            game.homescreen.update()
+
+def run():
         running = True
         # mouse = pygame.mouse.get_pos()
 
@@ -20,8 +28,8 @@ pygame.display.set_caption("Halle7")
                     running = False
                 if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                     running = False
-                if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
-                    Dices(self).update()
+                #if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+                    #Dices(self).update()
 
 
 
@@ -32,8 +40,9 @@ pygame.display.set_caption("Halle7")
 
             # Update
             # print(mouse)
-            dices.update()
+            #dices.update()
 
             pygame.display.update()
-    pygame.quit()
-
+            checker()
+    #pygame.quit()
+run()
