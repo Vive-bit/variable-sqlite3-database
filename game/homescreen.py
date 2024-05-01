@@ -2,11 +2,10 @@ import pygame
 import main
 
 def draw():
-    pygame.draw.rect(main.surface, "gray", (50, 50, 400, 600), 10)      #
-    return True
+    pygame.draw.rect(main.surface, "gray", ([0, 0], [1920, 1080]), 2)
+
 
 def update():
     draw()
-    #import main
-    #main.screen="none"
+
 
