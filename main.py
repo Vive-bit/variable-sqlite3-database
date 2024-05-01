@@ -8,14 +8,16 @@ window = pygame.display.set_mode((window_width, window_height))
 surface = window
 
 running = True
+
 while running:
     import game.homescreen
     game.homescreen.update()
     for event in pygame.event.get():
-        if event.type == pygame.quit:
+        if event.type == pygame.QUIT:
             running = False
-        elif event.type == pygame.KEYDOWN and pygame.key == pygame.K_ESCAPE:
+        if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
+
     window.fill((255, 255, 255))
     pygame.display.update()
 
