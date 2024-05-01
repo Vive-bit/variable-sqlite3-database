@@ -11,6 +11,7 @@ screen = "homescreen"
 # Title
 pygame.display.set_caption("Halle7")
 
+<<<<<<< Updated upstream
 def checker():
     if screen == "homescreen":
         import game.homescreen
@@ -35,6 +36,20 @@ def run():
                     running = False
                 #if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
                     #Dices(self).update()
+=======
+def run(self):
+    running = True
+    # mouse = pygame.mouse.get_pos()
+
+    while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
+                running = False
+            if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
+                pass
+>>>>>>> Stashed changes
 
 
 
@@ -44,6 +59,7 @@ def run():
             window.fill((0, 0, 0))  # Background (Before updating [drawing] on surface)
 
             # Update
+<<<<<<< Updated upstream
             # print(mouse)
             #dices.update()
 
@@ -51,3 +67,11 @@ def run():
             checker()
     #pygame.quit()
 run()
+=======
+
+
+        pygame.display.update()
+pygame.quit()
+run()
+
+>>>>>>> Stashed changes
