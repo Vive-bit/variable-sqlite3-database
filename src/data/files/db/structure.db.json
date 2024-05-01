@@ -1,0 +1,8 @@
+{
+    "structures": [
+        [
+            "db_table_a",
+            "id integer"
+        ]
+    ]
+}

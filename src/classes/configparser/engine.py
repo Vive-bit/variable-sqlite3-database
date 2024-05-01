@@ -10,3 +10,4 @@ from src.classes.configparser.fetch import provider as configData
 
 class provider:
     DATABASE_PATH = str(config.get("DATABASE", "DATABASE_PATH"))
+    DATABASE_STRUCTURE_PATH = str(config.get("DATABASE", "DATABASE_STRUCTURE_PATH"))
