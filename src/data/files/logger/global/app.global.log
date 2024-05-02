@@ -1,0 +1,43 @@
+2024-05-02 18:24:23 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-05-02 18:24:23 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-05-02 18:24:23 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-02 18:24:23 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['db_table_a', 'id integer']])
+2024-05-02 18:24:23 - global - dbmanager.py:23 - INFO      | Database was loaded/created!
+2024-05-02 18:24:23 - global - dbmanager.py:29 - INFO      | src/data/files/db/local.db detected! Loading the Database..
+2024-05-02 18:24:23 - global - dbmanager.py:77 - INFO      | DataBase SQLITE3 seems all fine, initializing Tablechecker...
+2024-05-02 18:24:23 - global - dbmanager.py:104 - INFO      | [TABLECHECKER] - Table #1 (TABLE_NAME: 'db_table_a', STRUCTURE: 'id integer'). Table already exists. No new table was created.
+2024-05-02 18:24:23 - global - dbmanager.py:84 - DEBUG     | DataBase SQLITE3 is saving...
+2024-05-02 18:24:23 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-02 18:24:23 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['db_table_a', 'id integer']])
+2024-05-02 18:24:59 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-05-02 18:24:59 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-05-02 18:24:59 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-02 18:24:59 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['db_table_a', 'id integer']])
+2024-05-02 18:24:59 - global - dbmanager.py:23 - INFO      | Database was loaded/created!
+2024-05-02 18:24:59 - global - dbmanager.py:29 - INFO      | src/data/files/db/local.db detected! Loading the Database..
+2024-05-02 18:24:59 - global - dbmanager.py:77 - INFO      | DataBase SQLITE3 seems all fine, initializing Tablechecker...
+2024-05-02 18:24:59 - global - dbmanager.py:104 - INFO      | [TABLECHECKER] - Table #1 (TABLE_NAME: 'db_table_a', STRUCTURE: 'id integer'). Table already exists. No new table was created.
+2024-05-02 18:24:59 - global - dbmanager.py:84 - DEBUG     | DataBase SQLITE3 is saving...
+2024-05-02 18:24:59 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-02 18:24:59 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['db_table_a', 'id integer']])
+2024-05-02 18:24:59 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscren.py
+2024-05-02 18:24:59 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-05-02 18:24:59 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported component: homescreen.py
+2024-05-02 18:24:59 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: settingscren.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-05-02 18:24:59 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported component: settingscren.py
+2024-05-02 18:25:29 - global - logging.py:15 - INFO      | --*-- PROGRAM STARTUP --*--
+2024-05-02 18:25:29 - global - core.py:3 - INFO      | [SETUP] Program initializing...
+2024-05-02 18:25:29 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-02 18:25:29 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['db_table_a', 'id integer']])
+2024-05-02 18:25:29 - global - dbmanager.py:23 - INFO      | Database was loaded/created!
+2024-05-02 18:25:29 - global - dbmanager.py:29 - INFO      | src/data/files/db/local.db detected! Loading the Database..
+2024-05-02 18:25:29 - global - dbmanager.py:77 - INFO      | DataBase SQLITE3 seems all fine, initializing Tablechecker...
+2024-05-02 18:25:29 - global - dbmanager.py:104 - INFO      | [TABLECHECKER] - Table #1 (TABLE_NAME: 'db_table_a', STRUCTURE: 'id integer'). Table already exists. No new table was created.
+2024-05-02 18:25:29 - global - dbmanager.py:84 - DEBUG     | DataBase SQLITE3 is saving...
+2024-05-02 18:25:29 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-02 18:25:29 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['db_table_a', 'id integer']])
+2024-05-02 18:25:29 - global - __init__.py:8 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscren.py
+2024-05-02 18:25:29 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-05-02 18:25:29 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported component: homescreen.py
+2024-05-02 18:25:29 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: settingscren.py | Error: No module named 'C:\\Users\\marti\\Documents\\GitHub\\halle7\\game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-05-02 18:25:29 - global - __init__.py:23 - INFO      | [game.__init__.py] Successfully imported component: settingscren.py

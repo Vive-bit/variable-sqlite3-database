@@ -77,6 +77,9 @@ class dataBaseClassManager:
             LMCG().log(type="global").info(f"DataBase SQLITE3 seems all fine, initializing Tablechecker...")
             if self.db_tablechecker():
                 self.__save__()
+                LMCG().log(type="global").info(f"Looks alright, getting dbDataManager ready...")
+                import src.classes.db.dbdatamanager as f
+                f.data={"locked":False,"data":{"DATABASE_LOCALDATE_CURSOR":self.DATABASE_LOCALDATE_CURSOR,"DATABASE_LOCALDATE":self.DATABASE_LOCALDATE}}
 
     def __save__(self):
         LMCG().log(type="global").debug(f"DataBase SQLITE3 is saving...")

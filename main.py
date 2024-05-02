@@ -1,5 +1,6 @@
 import pygame
-import game.homescreen as homescreen
+from src import game as homescreen
+
 global mouse
 
 pygame.init()

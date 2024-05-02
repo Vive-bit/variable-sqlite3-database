@@ -1,6 +1,5 @@
 import logging
 import logging.config
-import traceback
 
 class LoggingManager:
   def __init__(self):
@@ -12,7 +11,7 @@ class LoggingManager:
     self.loggers = {str(d[0]): d[1] for d in list(self.get_loggers())}
   def start(self):
     for i in self.logger_list:
-      self.log(type=i).info("--*-- PROGRAM STARTUP --*--")
+      self.log(type=i).info("--//-- PROGRAM STARTUP --//--")
   def get_loggers(self) -> dict:
     logging.config.fileConfig(fname=self.logfile, disable_existing_loggers=False)
     return [[str(i),logging.getLogger(str(i))] for i in self.logger_list]
