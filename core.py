@@ -6,6 +6,7 @@ from src.classes.configparser.engine import provider as configData
 ##############################
 ### DATABASE IMPORTS #########
 from src.classes.db.dbmanager import dataBaseClassManager as db
+db()
 ##############################
 import src.classes.db.dbmanager
 
