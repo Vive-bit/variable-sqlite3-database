@@ -1,5 +1,5 @@
 import pygame
-import game.homescreen as homescreen
+import src.game.homescreen as homescreen
 global mouse
 
 pygame.init()
@@ -14,7 +14,6 @@ pygame.display.set_caption("Halle7")
 running = True
 while running:
     mouse = pygame.mouse.get_pos()
-    print(mouse)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
