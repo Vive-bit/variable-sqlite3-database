@@ -19,7 +19,7 @@ while running:
             running = False
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
-        elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+        elif homescreen.startIMG(surface).collidepoint(mouse):
             print("Highnachtsmann")
 
     # Standard window background with 60FPS setting
