@@ -29,7 +29,7 @@ wichtiger_string_oder_int = SI.data.DATABASE_PATH
 
 # Einstufungen der Logs
 
-´.debug´
+`.debug`
 Debug steht **unter** Info, und ist nur eine kleine nebeninformation die in der Konsole **nicht** Angezeigt wird, sondern nur in den Dateien.
 
 `.info`
