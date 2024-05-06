@@ -142,3 +142,28 @@
 2024-05-06 18:00:59 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
 2024-05-06 18:00:59 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
 2024-05-06 18:00:59 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
+2024-05-06 18:03:04 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:03:04 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:06:41 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:06:41 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:10:04 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:10:04 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:14:49 - global - __init__.py:26 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:14:49 - global - __init__.py:26 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:17:02 - global - __init__.py:26 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:17:02 - global - __init__.py:26 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:18:15 - global - __init__.py:26 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:18:15 - global - __init__.py:26 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:18:46 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:18:46 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:22:19 - global - __init__.py:20 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:22:19 - global - __init__.py:20 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:22:37 - global - __init__.py:21 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game'
+2024-05-06 18:22:37 - global - __init__.py:21 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game'
+2024-05-06 18:34:47 - global - dbdatamanager.py:41 - ERROR     | Record was incorrectly expressed! More details: 'dbDataManager' object has no attribute 'DATABASE_LOCALDATE_CURSOR'
+2024-05-06 18:34:47 - global - dbdatamanager.py:41 - ERROR     | Record was incorrectly expressed! More details: 'dbDataManager' object has no attribute 'DATABASE_LOCALDATE_CURSOR'
+2024-05-06 18:34:47 - global - dbdatamanager.py:41 - ERROR     | Record was incorrectly expressed! More details: 'dbDataManager' object has no attribute 'DATABASE_LOCALDATE_CURSOR'
+2024-05-06 18:43:46 - global - dbdatamanager.py:33 - ERROR     | Record was incorrectly expressed! More details: no such table: db_table_at
+2024-05-06 18:45:45 - global - dbdatamanager.py:33 - ERROR     | Record was incorrectly expressed! More details: no such table: db_table_a
+2024-05-06 18:45:45 - global - dbdatamanager.py:33 - ERROR     | Record was incorrectly expressed! More details: no such table: db_table_a
+2024-05-06 18:45:45 - global - dbdatamanager.py:33 - ERROR     | Record was incorrectly expressed! More details: no such table: db_table_a

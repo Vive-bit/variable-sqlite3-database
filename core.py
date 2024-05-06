@@ -2,8 +2,7 @@
 from src.classes.logger.logging import LoggingManager as LMCG
 LMCG().log(type="global").info("[SETUP] Program initializing...")
 ### CONFIGPARSER IMPORTS #####
-from src.classes.configparser.engine import provider as configData
-configData()
+import src.classes.configparser.engine
 ### DATABASE IMPORTS #########
 from src.classes.db.dbmanager import dataBaseClassManager as db
 db()
