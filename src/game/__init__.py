@@ -15,11 +15,11 @@ LMCG().log(type="global").info(f"[game.__init__.py] Fetched components: {', '.jo
 for view in views:
   try:
     importlib.import_module(os.path.dirname(os.path.realpath(__file__)).split('/')[-1] + "." + view[:-3])
-    LMCG().log(type="global").info(f"[game.__init__.py] Successfully imported component: {view}")
+    LMCG().log(type="global").info(f"[game.__init__.py] TYPE1 - Successfully imported component: {view}")
   except Exception as e:
-    LMCG().log(type="global").error(f"[game.__init__.py] [ERROR] Failed to import component: {view} | Error: {e} [TRYING AGAIN WITH OTHER FILE SYSTEM]")
+    #LMCG().log(type="global").error(f"[game.__init__.py] [ERROR] Failed to import component: {view} | Error: {e} [TRYING AGAIN WITH OTHER FILE SYSTEM]")
     try:
       importlib.import_module(os.path.dirname(os.path.realpath(__file__)).split('\\')[-1] + "." + view[:-3])
-      LMCG().log(type="global").info(f"[game.__init__.py] Successfully imported component: {view}")
+      LMCG().log(type="global").info(f"[game.__init__.py] TYPE2 - Successfully imported component: {view}")
     except Exception as e:
       LMCG().log(type="global").critical(f"[game.__init__.py] [ERROR] Failed to import component: {view} | Error: {e}")
