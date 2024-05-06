@@ -17,7 +17,7 @@ def settingIMG(surface):
     settingimgraw = pygame.image.load("pictures/Einstellungen.png")     # Load an image
     settingimg = pygame.Surface.convert_alpha(settingimgraw)            # Optimize image
     sizesetting = pygame.transform.scale(settingimg, (500, 100))        # Set size of image
-    x = surface.blit(sizesetting, (1920 / 2 - 250, 400))
+    x = surface.blit(sizesetting, (1920 / 2 - 250, 300))
 
 
     return x

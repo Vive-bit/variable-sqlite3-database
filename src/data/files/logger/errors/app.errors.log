@@ -138,3 +138,7 @@
 2024-05-06 17:59:27 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
 2024-05-06 17:59:27 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
 2024-05-06 17:59:27 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
+2024-05-06 18:00:59 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named 'game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-05-06 18:00:59 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
+2024-05-06 18:00:59 - global - __init__.py:20 - ERROR     | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'game' [TRYING AGAIN WITH OTHER FILE SYSTEM]
+2024-05-06 18:00:59 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
