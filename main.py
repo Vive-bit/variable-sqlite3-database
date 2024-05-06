@@ -1,6 +1,6 @@
 import pygame
 import src.game.homescreen as homescreen
-global mouse
+global mouse, statusStart, statusSetting
 
 pygame.init()
 
@@ -20,7 +20,9 @@ while running:
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
             running = False
         elif homescreen.startIMG(surface).collidepoint(mouse):
-            print("Highnachtsmann")
+            print("Start")
+        elif homescreen.settingIMG(surface).collidepoint(mouse):
+            print("Setting")
 
     # Standard window background with 60FPS setting
 
