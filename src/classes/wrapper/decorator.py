@@ -12,5 +12,8 @@ class TestDecorator:
             if self.test_func:
                 return func(*args, **kwargs)
             else:
-                LMCG().log(type="global").warning(self.msg)
+                try:
+                    LMCG().log(type="global").warning(self.msg)
+                except:
+                    print(self.msg)
         return wrapper
