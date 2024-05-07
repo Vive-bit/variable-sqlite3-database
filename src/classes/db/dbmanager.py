@@ -10,6 +10,7 @@ from src.classes.db.dbstructurizer import databaseStructurizerReader as dSR
 dSR=dSR()()
 # database (sqlite3) python3 builtin
 
+data={"active":False,"data":{}}
 
 if not os.path.isfile('{}'.format(configData.DATABASE_PATH)):
     LMCG().log(type="global").critical(
@@ -36,6 +37,7 @@ try:
     DATABASE_LOCALDATE_CURSOR = DATABASE_LOCALDATE.cursor()
 except:
     DATABASE_LOCALDATE_CURSOR = None
+
 
 
 class check:
@@ -78,8 +80,8 @@ class dataBaseClassManager:
             if self.db_tablechecker():
                 self.__save__()
                 LMCG().log(type="global").info(f"Looks alright, getting dbDataManager ready...")
-                import src.classes.db.dbdatamanager as f
-                f.data={"locked":False,"data":{"DATABASE_LOCALDATE_CURSOR":self.DATABASE_LOCALDATE_CURSOR,"DATABASE_LOCALDATE":self.DATABASE_LOCALDATE}}
+                global data
+                data={"active":True,"data":{"DATABASE_LOCALDATE_CURSOR":self.DATABASE_LOCALDATE_CURSOR,"DATABASE_LOCALDATE":self.DATABASE_LOCALDATE}}
 
     def __save__(self):
         LMCG().log(type="global").debug(f"DataBase SQLITE3 is saving...")
