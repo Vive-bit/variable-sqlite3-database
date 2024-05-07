@@ -7,10 +7,8 @@ class Start:
     def __call__(self) -> None:
         from src.classes.logger.logging import LoggingManager as LMCG
         LMCG().log(type="global").info("[SETUP] Program initializing...")
-        from src.classes.db.dbmanager import dataBaseClassManager as db
-        db()
-        from src.classes.db.dbdatamanager import dbDataManager as dDM
-        dDM()
+        import src.classes.db.dbmanager
+        import src.classes.db.dbdatamanager
         import src.classes.configparser.engine
         import src.imports
         import main
