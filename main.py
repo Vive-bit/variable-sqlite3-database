@@ -21,8 +21,16 @@ while running:
             running = False
         elif homescreen.startIMG(surface).collidepoint(mouse):
             print("Start")
-        elif homescreen.settingIMG(surface).collidepoint(mouse):
-            print("Setting")
+        elif homescreen.einstellungIMG(surface).collidepoint(mouse):
+            print("Einstellung")
+        elif homescreen.beendenIMG(surface).collidepoint(mouse) and event.type == pygame.KEYDOWN and\
+                event.key == pygame.MOUSEBUTTONDOWN:
+            homescreen.beendensure(surface)
+
+        elif homescreen.beendenIMG(surface).collidepoint(mouse):
+            print("Beenden")
+        elif event.type == pygame.KEYDOWN and event.key == pygame.MOUSEBUTTONDOWN:
+            print("allah")
 
     # Standard window background with 60FPS setting
 
