@@ -136,3 +136,4 @@ class dataBaseClassManager:
         else:
             return False
     ############################
+dataBaseClassManager()

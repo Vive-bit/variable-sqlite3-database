@@ -12,7 +12,7 @@ class LoggingManager:
   def start(self):
     for i in self.logger_list:
       self.log(type=i).info("--//-- PROGRAM STARTUP --//--")
-  def get_loggers(self) -> dict:
+  def get_loggers(self):
     logging.config.fileConfig(fname=self.logfile, disable_existing_loggers=False)
     return [[str(i),logging.getLogger(str(i))] for i in self.logger_list]
   def log(self,**kwargs):

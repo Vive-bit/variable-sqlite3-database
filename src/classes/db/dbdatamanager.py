@@ -13,7 +13,7 @@ class dbDataManager:
         return data["data"]["DATABASE_LOCALDATE"].commit()
 
     @TestDecorator(bool(data["active"]),"DataBase is still loading!")
-    def __call__(self,record:str="") -> bool:
+    def __call__(self,record:str=""):
             try:
                 x=data["data"]["DATABASE_LOCALDATE_CURSOR"].execute(record)
                 if "DELETE" or "INSERT" or "UPDATE" in record:
