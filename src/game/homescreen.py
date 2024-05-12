@@ -1,4 +1,3 @@
-
 import pygame
 def backgroundIMG(surface): # Background
     backgroundimgraw = pygame.image.load("pictures/PalfingerHintergrund.png")
@@ -37,6 +36,7 @@ def beendenSureRect(surface):  # "Sure you want to quit" Buttons and Window
     beendensureboximg = pygame.Surface.convert_alpha(beendensureboximgraw) # Optimize image
     sizebeendensurebox = pygame.transform.scale(beendensureboximg, (500, 400)) # Set size of image
     x = surface.blit(sizebeendensurebox, (1920 / 2 - 250, 1080 / 2 - 200))
+
     pygame.draw.rect(surface, "red", [(1920 / 2 - 250, 1080 / 2 - 200), (500, 400)], 4)  # Draw the quit box outline
     pygame.draw.rect(surface, "black", [(1920 / 2 - 230, 1080 / 2 + 75), (160, 100)])  # Draw the quit box buttons box 1
     pygame.draw.rect(surface, "red", [(1920 / 2 - 230, 1080 / 2 + 75), (160, 100)], 4)  # Draw the quit box buttons box outlines 1

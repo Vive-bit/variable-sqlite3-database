@@ -1,6 +1,7 @@
 import pygame
 import src.game.homescreen as homescreen
-global mouse, statusStart, statusSetting, statusQuit
+import src.game.settingscreen as settingscreen
+global mouse, statusStart, statusSetting, statusQuit, statusSave, statusAudio
 
 pygame.init()
 
@@ -13,6 +14,9 @@ pygame.display.set_caption("Halle7")
 
 # Define Var's
 statusQuit = 0
+statusSetting = 0
+statusSave = 1
+statusAudio = 0
 
 running = True
 while running:
@@ -29,11 +33,11 @@ while running:
         elif homescreen.beendenSureNo(surface).collidepoint(mouse) and event.type == pygame.MOUSEBUTTONDOWN:
             statusQuit = 0 # Disable "BeendenSure" Window
 
-        elif homescreen.startIMG(surface).collidepoint(mouse):
+        elif homescreen.startIMG(surface).collidepoint(mouse) and statusQuit == 0:
             pass
 
-        elif homescreen.einstellungIMG(surface).collidepoint(mouse):
-            pass
+        elif homescreen.einstellungIMG(surface).collidepoint(mouse) and event.type == pygame.MOUSEBUTTONDOWN and statusQuit == 0:
+            statusSetting = 1
 
         elif homescreen.beendenIMG(surface).collidepoint(mouse) and event.type == pygame.MOUSEBUTTONDOWN:
             statusQuit = 1 # Enable "BeendenSure" Window
@@ -54,6 +58,12 @@ while running:
         homescreen.updateN(surface)     # Homescreen design updating when "No"
     else:
         homescreen.updateQ(surface)     # Homescreen design updating when "Yes"
+
+    # Checks if "Einstellungen" Button is pressed
+    if statusSave == 1 and statusSetting == 1:
+        settingscreen.updateSaveScreen(surface)
+    elif statusSave == 1 and statusSetting == 0:
+        settingscreen.updateAudioScreen(surface)
 
     pygame.display.update()
 
