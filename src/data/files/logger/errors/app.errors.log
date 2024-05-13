@@ -168,3 +168,4 @@
 2024-05-06 18:32:57 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
 2024-05-06 18:41:04 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: homescreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
 2024-05-06 18:41:04 - global - __init__.py:25 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named '/Users/david/Ultimate/halle7/src/game'
+2024-05-12 21:00:09 - global - __init__.py:23 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'src./Users/david/Ultimate/halle7/src/game'
