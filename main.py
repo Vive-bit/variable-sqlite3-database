@@ -18,6 +18,9 @@ statusSetting = 0
 statusSave = 1
 statusAudio = 0
 
+font = pygame.font.Font("fonts/Antreas.ttf", 30)
+
+
 running = True
 while running:
     mouse = pygame.mouse.get_pos()
@@ -55,14 +58,18 @@ while running:
 
     # Checks if "BeendenSure" Window should appear
     if statusQuit == 0:
-        homescreen.updateN(surface)     # Homescreen design updating when "No"
+        homescreen.updateN(surface)     # Homescreen updating when "No"
     else:
-        homescreen.updateQ(surface)     # Homescreen design updating when "Yes"
+        homescreen.updateQ(surface)     # Homescreen updating when "Yes"
 
     # Checks if "Einstellungen" Button is pressed
-    if statusSave == 1 and statusSetting == 1:
+    if statusSetting == 1:
+        statusSave = 1
+        statusAudio = 0
         settingscreen.updateSaveScreen(surface)
-    elif statusSave == 1 and statusSetting == 0:
+    elif statusSetting == 1 and statusSave == 0:
+        statusSave = 0
+        statusAudio = 1
         settingscreen.updateAudioScreen(surface)
 
     pygame.display.update()
