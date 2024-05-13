@@ -4,26 +4,52 @@ import sqlite3 as sql
 from src.classes.logger.logging import LoggingManager as LMCG
 ###############
 from src.classes.wrapper.decorator import TestDecorator
-from src.classes.db.dbmanager import data as gh
-data = gh
+from src.classes.db.dbmanager import data as data
 
 class dbDataManager:
+    def __init__(self):
+        self.pointer=None
+    @property
+    def name(self):
+        if self.pointer:
+            return f"[{data['data'][self.pointer]['num']}] {data['data'][self.pointer]['dbname']}"
     def __save__(self):
-        LMCG().log(type="global").debug(f"DataBase SQLITE3 is saving...")
-        return data["data"]["DATABASE_LOCALDATE"].commit()
+        if self.pointer:
+            LMCG().log(type="global").debug(f"{self.name} DataBase SQLITE3 is saving...")
+            return data["data"][self.pointer]["DATABASE_LOCALDATE"].commit()
 
-    @TestDecorator(bool(data["active"]),"DataBase is still loading!")
-    def __call__(self,record:str=""):
+    @TestDecorator(bool(data["active"]),"DataBase loader not ready!")
+    def execute(self,record:str=""):
+        if self.pointer and not record=="":
             try:
-                x=data["data"]["DATABASE_LOCALDATE_CURSOR"].execute(record)
+                x=data["data"][self.pointer]["DATABASE_LOCALDATE_CURSOR"].execute(record)
                 if "DELETE" or "INSERT" or "UPDATE" in record:
                     self.__save__()
                 if "SELECT" in record:
                     return True,x.fetchall()
                 return True
             except Exception as e:
-                LMCG().log(type="global").error(f"Record was incorrectly expressed! More details: {e}")
+                LMCG().log(type="global").error(f"{self.name} Error detected! More details: {e}")
                 return False
+
+    @TestDecorator(bool(data["active"]), "DataBase loader not ready!")
+    def point(self, record: str = None):
+        if not record==None:
+            if str(record) in data["data"].keys():
+                if data["data"][record]["loading_status"]==True:
+                    self.pointer=str(record)
+                    LMCG().log(type="global").info(f"Now pointing to {record} (Fetch: {self.name}).")
+                    return True
+                else:
+                    LMCG().log(type="global").error(f"DataBase {record} is not ready.")
+                    return False
+            else:
+                LMCG().log(type="global").error(f"Record was incorrectly expressed! DataBase does not exist.")
+                return False
+        else:
+            LMCG().log(type="global").info(f"Pointer was reset.")
+            self.pointer=None
+            return True
 
 '''
 DELETE from {} WHERE id={} AND type='{}'
