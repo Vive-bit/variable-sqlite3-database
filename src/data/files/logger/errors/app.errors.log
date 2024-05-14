@@ -229,3 +229,7 @@
 2024-05-13 22:49:47 - global - dbdatamanager.py:47 - ERROR     | Record was incorrectly expressed! DataBase does not exist.
 2024-05-13 22:49:47 - global - dbdatamanager.py:47 - ERROR     | Record was incorrectly expressed! DataBase does not exist.
 2024-05-13 22:50:50 - global - dbdatamanager.py:47 - ERROR     | Record was incorrectly expressed! DataBase does not exist.
+2024-05-14 17:24:30 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl
+2024-05-14 17:26:02 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: near "2000": syntax error
+2024-05-14 17:26:18 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl
+2024-05-14 17:27:18 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl

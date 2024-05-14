@@ -16,4 +16,35 @@ import src.classes.db.dbmanager as dbm
 dbm.__load__()
 print(db.point("base64"))
 print(db.execute("SELECT * FROM money"))
+geld=7000
+
+
+db.point("test")
+
+geld_hinzufügen=db.execute("""UPDATE money SET zahl={}""".format(geld))
+geld_auslesen=db.execute("""SELECT * FROM money""")[1][0][0]
+print(geld_hinzufügen)
+print(geld_auslesen)
+
 '''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

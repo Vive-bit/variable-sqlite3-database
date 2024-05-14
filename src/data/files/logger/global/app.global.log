@@ -266,3 +266,305 @@
 2024-05-13 22:50:50 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
 2024-05-13 22:50:50 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
 2024-05-13 22:50:50 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-13 22:55:25 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-13 22:55:25 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-13 22:55:25 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-13 22:55:25 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'datatype integer']])
+2024-05-13 22:55:25 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-13 22:55:25 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-13 22:55:25 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-13 22:55:25 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'datatype integer'). Table already exists. No new table was created.
+2024-05-13 22:55:25 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-13 22:55:25 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'datatype integer'). Table already exists. No new table was created.
+2024-05-13 22:55:25 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-13 22:55:25 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-13 22:55:25 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-13 22:55:25 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-13 22:55:25 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:19:58 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:19:58 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:19:58 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:19:58 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:19:58 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:19:58 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:19:58 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:19:58 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:19:58 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table just created.
+2024-05-14 17:19:58 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:19:58 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:19:58 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table just created.
+2024-05-14 17:19:58 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:19:58 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:19:58 - global - dbdatamanager.py:41 - INFO      | Now pointing to local (Fetch: [2] local.db).
+2024-05-14 17:19:58 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:19:58 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:19:58 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:19:58 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:22:08 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:22:08 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:22:08 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:22:08 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:22:08 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:22:08 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:22:08 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:22:08 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:22:08 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:22:08 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:08 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:22:08 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:22:08 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:08 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:22:08 - global - dbdatamanager.py:41 - INFO      | Now pointing to local (Fetch: [2] local.db).
+2024-05-14 17:22:08 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:08 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:08 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:22:08 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:22:08 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:22:41 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:22:41 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:22:41 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:22:41 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:22:41 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:22:41 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:22:41 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:22:41 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:22:41 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:22:41 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:41 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:22:41 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:22:41 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:41 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:22:41 - global - dbdatamanager.py:41 - INFO      | Now pointing to local (Fetch: [2] local.db).
+2024-05-14 17:22:41 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:41 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:22:41 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:22:41 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:22:41 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:24:30 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:24:30 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:24:30 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:24:30 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:24:30 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:24:30 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:24:30 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:24:30 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:24:30 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:24:30 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:24:30 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:24:30 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:24:30 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:24:30 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:24:30 - global - dbdatamanager.py:41 - INFO      | Now pointing to local (Fetch: [2] local.db).
+2024-05-14 17:24:30 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl
+2024-05-14 17:24:30 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:24:30 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:24:30 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:24:30 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:26:02 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:26:02 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:26:02 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:26:02 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:26:02 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:26:02 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:26:02 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:26:02 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:26:02 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:26:02 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:26:02 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:26:02 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:26:02 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:26:02 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:26:02 - global - dbdatamanager.py:41 - INFO      | Now pointing to local (Fetch: [2] local.db).
+2024-05-14 17:26:02 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: near "2000": syntax error
+2024-05-14 17:26:02 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:26:02 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:26:02 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:26:02 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:26:18 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:26:18 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:26:18 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:26:18 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:26:18 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:26:18 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:26:18 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:26:18 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:26:18 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:26:18 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:26:18 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:26:18 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:26:18 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:26:18 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:26:18 - global - dbdatamanager.py:41 - INFO      | Now pointing to local (Fetch: [2] local.db).
+2024-05-14 17:26:18 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl
+2024-05-14 17:26:18 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:26:18 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:26:18 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:26:18 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:27:18 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:27:18 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:27:18 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:27:18 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:27:18 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:27:18 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:27:18 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:27:18 - global - dbloader.py:22 - INFO      | DataBase test.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:27:18 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:27:18 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:27:18 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:18 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:27:18 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:27:18 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:18 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table just created.
+2024-05-14 17:27:18 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table just created.
+2024-05-14 17:27:18 - global - dbmanager.py:37 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:18 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:27:18 - global - dbdatamanager.py:41 - INFO      | Now pointing to local (Fetch: [2] local.db).
+2024-05-14 17:27:18 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl
+2024-05-14 17:27:18 - global - dbdatamanager.py:18 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:18 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:27:18 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:27:18 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:27:42 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:27:42 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:27:42 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:27:42 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:27:42 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:27:42 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:27:42 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:27:42 - global - dbloader.py:22 - INFO      | DataBase test.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:27:42 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:27:42 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:27:42 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:42 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:27:42 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:27:42 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:42 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:27:42 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:27:42 - global - dbmanager.py:37 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:42 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:27:42 - global - dbdatamanager.py:41 - INFO      | Now pointing to test (Fetch: [3] test.db).
+2024-05-14 17:27:42 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:42 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:27:42 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:27:42 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:27:42 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:28:09 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:28:09 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:28:09 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:28:09 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:28:09 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:28:09 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:09 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:09 - global - dbloader.py:22 - INFO      | DataBase test.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:09 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:09 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:09 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:09 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:09 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:09 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:09 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:09 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:09 - global - dbmanager.py:37 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:09 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:28:09 - global - dbdatamanager.py:41 - INFO      | Now pointing to test (Fetch: [3] test.db).
+2024-05-14 17:28:09 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:09 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:09 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:28:09 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:28:09 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:28:22 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:28:22 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:28:22 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:28:22 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:28:22 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:28:22 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:22 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:22 - global - dbloader.py:22 - INFO      | DataBase test.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:22 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:22 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:22 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:22 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:22 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:22 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:22 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:22 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:22 - global - dbmanager.py:37 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:22 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:28:22 - global - dbdatamanager.py:41 - INFO      | Now pointing to test (Fetch: [3] test.db).
+2024-05-14 17:28:22 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:22 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:22 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:28:22 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:28:22 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:28:51 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:28:51 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:28:51 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:28:51 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:28:51 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:28:51 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:51 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:51 - global - dbloader.py:22 - INFO      | DataBase test.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:28:51 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:51 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:51 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:51 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:51 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:51 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:51 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:28:51 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:28:51 - global - dbmanager.py:37 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:51 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:28:51 - global - dbdatamanager.py:41 - INFO      | Now pointing to test (Fetch: [3] test.db).
+2024-05-14 17:28:51 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:51 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:28:51 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:28:51 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:28:51 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:29:03 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:29:03 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:29:03 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:29:03 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:29:03 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:29:03 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:29:03 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:29:03 - global - dbloader.py:22 - INFO      | DataBase test.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:29:03 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:29:03 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:29:03 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:03 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:29:03 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:29:03 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:03 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:29:03 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:29:03 - global - dbmanager.py:37 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:03 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-14 17:29:03 - global - dbdatamanager.py:41 - INFO      | Now pointing to test (Fetch: [3] test.db).
+2024-05-14 17:29:03 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:03 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:03 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:29:03 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:29:03 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-14 17:29:30 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-14 17:29:30 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-14 17:29:30 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-14 17:29:30 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'zahl integer'], ['gehalt', 'monat integer']])
+2024-05-14 17:29:30 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-14 17:29:30 - global - dbloader.py:22 - INFO      | DataBase base64.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:29:30 - global - dbloader.py:22 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:29:30 - global - dbloader.py:22 - INFO      | DataBase test.db in src/data/files/db/ | Successfully loaded!
+2024-05-14 17:29:30 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:29:31 - global - dbmanager.py:50 - INFO      | [1] base64.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:29:31 - global - dbmanager.py:37 - DEBUG     | [1] base64.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:31 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:29:31 - global - dbmanager.py:50 - INFO      | [2] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:29:31 - global - dbmanager.py:37 - DEBUG     | [2] local.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:31 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'zahl integer'). Table already exists. No new table was created.
+2024-05-14 17:29:31 - global - dbmanager.py:50 - INFO      | [3] test.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-14 17:29:31 - global - dbmanager.py:37 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:31 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 1s.
+2024-05-14 17:29:31 - global - dbdatamanager.py:41 - INFO      | Now pointing to test (Fetch: [3] test.db).
+2024-05-14 17:29:31 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:31 - global - dbdatamanager.py:18 - DEBUG     | [3] test.db DataBase SQLITE3 is saving...
+2024-05-14 17:29:31 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-14 17:29:31 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-14 17:29:31 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py

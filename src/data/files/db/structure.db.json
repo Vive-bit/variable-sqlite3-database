@@ -2,7 +2,10 @@
     "structures": [
         [
             "money",
-            "datatype integer"
+            "zahl integer"
+        ], [
+            "gehalt",
+            "monat integer"
         ]
     ]
 }
