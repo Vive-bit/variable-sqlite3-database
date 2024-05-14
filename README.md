@@ -62,7 +62,8 @@ import src.classes.db.dbmanager as DBM
 DBC.create_db("name_der_datenbank")
 DBM.__load__()
 ```
-Hier wird eine neue Datenbank sowie der Datenbank Manager geladen.
+**Bemerkung:** 
+- Hier wird eine neue Datenbank sowie der Datenbank Manager geladen.
 
 # 5.2 Befehle der Datenbank
 ```
@@ -73,7 +74,7 @@ SELECT * FROM {} WHERE id={} AND type='{}'
 ```
 **Bemerkungen:** 
 - Strings sind mit '' gekennzeichnet.
-- Beim SELECT den Rückgabewert mit [1][0][0] kennzeichnen, um dierekt den ersten Wert zu erhalten.
+- Beim SELECT den Rückgabewert mit [1][0][0] kennzeichnen, um direkt den ersten Wert zu erhalten.
 
 # 5.3 Execute in der Datenbank (Befehl durchgeben)
 ```
