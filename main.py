@@ -8,7 +8,7 @@ pygame.init()
 
 window_width = 1920
 window_height = 1080
-window = pygame.display.set_mode((window_width, window_height), pygame.FULLSCREEN)
+window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
 surface = window
 
 pygame.display.set_caption("Halle7")
