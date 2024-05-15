@@ -168,3 +168,6 @@
 2024-05-13 17:35:12 - root - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
 2024-05-13 17:35:59 - root - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
 2024-05-13 17:36:07 - root - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-15 17:52:39 - root - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-15 21:55:47 - root - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-15 21:59:31 - root - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--

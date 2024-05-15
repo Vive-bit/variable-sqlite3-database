@@ -37,7 +37,7 @@ def settingCancleButtonNo(surface):
 
 
 
-def settingSaveBarTop(surface):
+def settingSaveBarTopButton(surface):
     x = pygame.draw.rect(surface, darkgray, [(210, 100), (750, 40)]) # Draw "Save" Button
     font = pygame.font.Font("fonts/Antreas.ttf", 30)
     text = font.render("Speicherstand", True, red)
@@ -47,7 +47,7 @@ def settingSaveBarTop(surface):
     surface.blit(text, (1560 + (100 - textwidth) / 2, 850 + (50 - textheight) / 2))
 
     return x
-def settingAudioBarTop(surface):
+def settingAudioBarTopButton(surface):
     x = pygame.draw.rect(surface, darkgray, [(960, 100), (750, 40)]) # Draw "Save" Button
     font = pygame.font.Font("fonts/Antreas.ttf", 30)
     text = font.render("Audio", True, red)
@@ -65,13 +65,13 @@ def settingAudioScreen(surface):
     pass
 
 def updateSaveScreen(surface):
-    settingSaveBarTop(surface)
+    settingSaveBarTopButton(surface)
     settingSaveScreen(surface)
     settingCancleButton(surface)
     settingSaveButton(surface)
 
 def updateAudioScreen(surface):
-    settingAudioBarTop(surface)
+    settingAudioBarTopButton(surface)
     settingAudioScreen(surface)
     settingCancleButton(surface)
     settingSaveButton(surface)

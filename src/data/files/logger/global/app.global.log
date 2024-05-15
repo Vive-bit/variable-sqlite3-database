@@ -40,3 +40,15 @@
 2024-05-13 17:36:07 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
 2024-05-13 17:36:07 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: homescreen.py
 2024-05-13 17:36:07 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: settingscreen.py
+2024-05-15 17:52:39 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-15 17:52:39 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-15 17:52:39 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: homescreen.py
+2024-05-15 17:52:39 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: settingscreen.py
+2024-05-15 21:55:47 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-15 21:55:47 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-15 21:55:47 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: homescreen.py
+2024-05-15 21:55:47 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: settingscreen.py
+2024-05-15 21:59:31 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-15 21:59:31 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-15 21:59:31 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: homescreen.py
+2024-05-15 21:59:31 - global - __init__.py:16 - INFO      | [game.__init__.py] TYPE1 - Successfully imported component: settingscreen.py
