@@ -1,8 +1,11 @@
 {
     "structures": [
         [
-            "db_table_a",
-            "id integer"
+            "money",
+            "zahl integer"
+        ], [
+            "gehalt",
+            "monat integer"
         ]
     ]
 }

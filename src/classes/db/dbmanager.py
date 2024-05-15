@@ -1,5 +1,4 @@
-import sqlite3 as sql
-import os
+from datetime import datetime
 ### CONFIGPARSER IMPORTS #####
 from src.classes.configparser.engine import provider as configData
 ##############################
@@ -9,90 +8,34 @@ from src.classes.logger.logging import LoggingManager as LMCG
 from src.classes.db.dbstructurizer import databaseStructurizerReader as dSR
 dSR=dSR()()
 # database (sqlite3) python3 builtin
-
+from src.classes.db.file.dbloader import DataBaseLoader as DBL
 data={"active":False,"data":{}}
 
-if not os.path.isfile('{}'.format(configData.DATABASE_PATH)):
-    LMCG().log(type="global").critical(
-        f">> Database file ({configData.DATABASE_PATH}) not found!")
-    LMCG().log(type="global").critical(
-        f">> Creating database file in {configData.DATABASE_PATH} > FOLDERS ARE NOT AUTOMATICIALLY CREATED; RESULT IN ERROR")
-    pass
 
-try:
-    DATABASE_LOCALDATE = sql.connect('{}'.format(configData.DATABASE_PATH), check_same_thread=False)
-    LMCG().log(type="global").info(f"Database was loaded/created!")
-except Exception as e:
-    LMCG().log(type="global").critical(
-        f">> [!!!] Database couldn't be loaded/created!\n[sqlite3 Database] [WARNING] ERROR: {e}")
-    DATABASE_LOCALDATE = None
-if os.path.isfile('{}'.format(configData.DATABASE_PATH)):
-    LMCG().log(type="global").info(
-        f"{configData.DATABASE_PATH} detected! Loading the Database..")
-    pass
-else:
-    LMCG().log(type="global").critical(f">> [!!!] {configData.DATABASE_PATH} not detected!")
-    pass
-try:
-    DATABASE_LOCALDATE_CURSOR = DATABASE_LOCALDATE.cursor()
-except:
-    DATABASE_LOCALDATE_CURSOR = None
-
-
-
-class check:
-    def __call__(self):
-        return {"status": True if not DATABASE_LOCALDATE == None else False}  # dbmstat class; ignore
-
-
-def get_db_contents():
-    DATABASE_LOCALDATE_CURSOR.execute("SELECT name FROM sqlite_master WHERE type='table';")
-    table_names = DATABASE_LOCALDATE_CURSOR.fetchall()
-
-    # Für jede Tabelle den Inhalt abrufen und in die Textdatei schreiben
-    with open("table_contents.txt", "w") as output_file:
-        for table in table_names:
-            table_name = table[0]
-            output_file.write(f"Inhalt der Tabelle '{table_name}':\n")
-
-            # Inhalt der Tabelle abrufen
-            DATABASE_LOCALDATE_CURSOR.execute(f"SELECT * FROM {table_name};")
-            rows = DATABASE_LOCALDATE_CURSOR.fetchall()
-
-            # Inhalt in die Textdatei schreiben
-            for row in rows:
-                output_file.write(str(row) + '\n')
-        output_file.close()
-
-    print("Inhalte wurden in 'table_contents.txt' gespeichert.")
-
-
-# get_db_contents()
-# AKTIVIEREN DIESER FUNKTION SCHREIBT ALLE DATEN DER DATENBANK AUS
-
-
-class dataBaseClassManager:
+class dataBaseClassManager(DBL):
     def __init__(self):
-        self.DATABASE_LOCALDATE_CURSOR = DATABASE_LOCALDATE_CURSOR
-        self.DATABASE_LOCALDATE = DATABASE_LOCALDATE
-        if self.status:
-            LMCG().log(type="global").info(f"DataBase SQLITE3 seems all fine, initializing Tablechecker...")
-            if self.db_tablechecker():
-                self.__save__()
-                LMCG().log(type="global").info(f"Looks alright, getting dbDataManager ready...")
-                global data
-                data={"active":True,"data":{"DATABASE_LOCALDATE_CURSOR":self.DATABASE_LOCALDATE_CURSOR,"DATABASE_LOCALDATE":self.DATABASE_LOCALDATE}}
-
+        LMCG().log(type="global").info(f"Initializing DataBase loader.")
+        stamp= datetime.now().timestamp()
+        super().__init__(str(configData.DATABASE_PATH))
+        if not self.dbstorage=={}:
+            global data
+            for il in self.dbstorage:
+                i=self.dbstorage[str(il)]
+                if i["loading_status"]==True:
+                    self.DATABASE_LOCALDATE=i["DATABASE_LOCALDATE"]
+                    self.DATABASE_LOCALDATE_CURSOR=i["DATABASE_LOCALDATE_CURSOR"]
+                    self.name=f"[{i['num']}] {i['dbname']}"
+                    if self.db_tablechecker():
+                        self.__save__()
+                        data["data"][str(il)]=i
+            data["active"]=True
+        else:
+            LMCG().log(type="global").error(f"Couldn't find any DataBase files? Status remains unchanged.")
+        duration=int(datetime.now().timestamp())-int(stamp)
+        LMCG().log(type="global").info(f"DataBase loader has finished in {duration}s.")
     def __save__(self):
-        LMCG().log(type="global").debug(f"DataBase SQLITE3 is saving...")
+        LMCG().log(type="global").debug(f"{self.name} DataBase SQLITE3 is saving...")
         return self.DATABASE_LOCALDATE.commit()
-    @property
-    def status(self)-> bool:
-        if check()()["status"] == False:
-            LMCG().log(type="global").critical(
-                f"[TABLECHECKER] [FATAL ERROR] [!!!] Database was never loaded!")
-            return False
-        return True
 
     def db_tablechecker(self) -> bool:
         tables = self.DATABASE_LOCALDATE_CURSOR.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
@@ -105,14 +48,14 @@ class dataBaseClassManager:
             else:
                 status_message = 'Table already exists. No new table was created.'
             LMCG().log(type="global").info(
-                f"[TABLECHECKER] - Table #{n} (TABLE_NAME: '{table_name}', STRUCTURE: '{structure}'). {status_message}"
+                f"{self.name} - Table #{n} (TABLE_NAME: '{table_name}', STRUCTURE: '{structure}'). {status_message}"
             )
 
         tables_to_drop = set(existing_tables) - set([table[0] for table in dSR])
         for table_to_drop in tables_to_drop:
             self.DATABASE_LOCALDATE_CURSOR.execute(f"DROP TABLE IF EXISTS {table_to_drop};")
             LMCG().log(type="global").warning(
-                f"[TABLECHECKER] - Table {table_to_drop} was dropped."
+                f"{self.name} - Table {table_to_drop} was dropped."
             )
         return True
         ############################
@@ -136,4 +79,6 @@ class dataBaseClassManager:
         else:
             return False
     ############################
-dataBaseClassManager()
+
+def __load__():
+    dataBaseClassManager()
