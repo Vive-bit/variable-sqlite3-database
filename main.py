@@ -8,7 +8,7 @@ pygame.init()
 
 window_width = 1920
 window_height = 1080
-window = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+window = pygame.display.set_mode((window_width, window_height), pygame.FULLSCREEN)
 surface = window
 
 pygame.display.set_caption("Halle7")
@@ -72,7 +72,7 @@ while running:
     # Standard window background with 60 FPS setting
     clock = pygame.time.Clock()         # FPS setting = 60FPS
     delta_time = clock.tick(60) / 1000  # FPS setting = 60 FPS
-    window.fill((255, 255, 255))        # Filling background to white
+    #window.fill((255, 255, 255))        # Filling background to white
 
     # Update
 
