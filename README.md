@@ -99,35 +99,47 @@ db.point("name_des_tables")
 Die vereinfachte Version der normalen Datenbank version.
 
 # 6.1 import
-```from src.imports import easydb as easydb```
+```
+from src.imports import easydb as easydb
+```
 
 # 6.2 Pointer setzen
-```easydb.point("name-der-datenbank")```
+```
+easydb.point("name-der-datenbank")
+```
 **ACHTUNG:** Dieser Pointer funktioniert NUR MIT EASYDB, NICHT MIT DER NORMALEN DB FUNKTION!!!!!!!!
 
 **Rückgabewert:** Sendet False/True zurück, je nach dem ob es funktioniert hat. Fehler werden von selbst in die Konsole gesendet.
 
 # 6.3 Datenbank auslesen
-```easydb.read("name-des-tables")```
+```
+easydb.read("name-des-tables")
+```
 
 **Rückgabewert:** False oder der gelesene Wert.
 
 # 6.4 Gesamten Datensatz löschen
 
-```easydb.delete("name-des-tables")```
+```
+easydb.delete("name-des-tables")
+```
 
 **Rückgabewert:** True oder False, je nach dem, ob es funktioniert hat.
 
 # 6.5 Datensatz als str hinzufügen
 
-```easydb.send("ISTWERT","str","name-des-tables","wert")```
+```
+easydb.send("ISTWERT","str","name-des-tables","wert")
+```
 **ISTWERT** und **str** bleiben hierblei immer gleich.
 
 **Rückgabewert:** True oder False, je nach dem, ob es funktioniert hat.
 
 # 6.5 Datensatz als int hinzufügen
 
-```easydb.send("ISTWERT","int","name-des-tables","wert")```
+```
+easydb.send("ISTWERT","int","name-des-tables","wert")
+```
 **ISTWERT** und **int** bleiben hierblei immer gleich.
 
 **Rückgabewert:** True oder False, je nach dem, ob es funktioniert hat.
