@@ -93,3 +93,27 @@ db.point("name_des_tables")
 **Bemerkungen:**
 - Der Wert name_des_tables ist aus der `structure.db.json` zu entnehmen!
 - Wenn der String nicht da, oder None ist, so wird der Pointer zurückgesezt. (Pointer zeigt auf keine Datenbank mehr)
+
+# 6.0 Verwendung von easydb
+
+# 6.1 import
+`from src.imports import easydb as easydb`
+
+# 6.2 Pointer setzen
+`easydb.point("name-der-datenbank")`
+**ACHTUNG:** Dieser Pointer funktioniert NUR MIT EASYDB, NICHT MIT DER NORMALEN DB FUNKTION!!!!!!!!
+
+# 6.3 Datenbank auslesen
+`easydb.read("name-des-tables")`
+
+# 6.4 Gesamten Datensatz löschen
+
+`easydb.delete("name-des-tables")`
+
+# 6.5 Datensatz als str hinzufügen
+
+`easydb.send("ISTWERT","str","name-des-tables","wert")`
+
+# 6.5 Datensatz als int hinzufügen
+
+`easydb.send("ISTWERT","int","name-des-tables","wert")`
