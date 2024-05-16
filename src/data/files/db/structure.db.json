@@ -2,7 +2,7 @@
     "structures": [
         [
             "money",
-            "zahl integer"
+            "istwert text"
         ], [
             "gehalt",
             "monat integer"

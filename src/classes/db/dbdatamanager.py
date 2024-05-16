@@ -10,17 +10,24 @@ class dbDataManager:
     def __init__(self):
         self.pointer=None
     @property
+    def aloader(self):
+        return False if not self.pointer or not bool(data["active"]) else True
+    @property
     def name(self):
-        if self.pointer:
+        if self.aloader:
             return f"[{data['data'][self.pointer]['num']}] {data['data'][self.pointer]['dbname']}"
+        else:
+            return False, "Pointer was not set / database is not ready"
     def __save__(self):
-        if self.pointer:
+        if self.aloader:
             LMCG().log(type="global").debug(f"{self.name} DataBase SQLITE3 is saving...")
-            return data["data"][self.pointer]["DATABASE_LOCALDATE"].commit()
+            return True, data["data"][self.pointer]["DATABASE_LOCALDATE"].commit()
+        else:
+            return False, "Pointer was not set / database is not ready"
 
     @TestDecorator(bool(data["active"]),"DataBase loader not ready!")
     def execute(self,record:str=""):
-        if self.pointer and not record=="":
+        if self.aloader and not record=="":
             try:
                 x=data["data"][self.pointer]["DATABASE_LOCALDATE_CURSOR"].execute(record)
                 if "DELETE" or "INSERT" or "UPDATE" in record:
@@ -30,7 +37,9 @@ class dbDataManager:
                 return True
             except Exception as e:
                 LMCG().log(type="global").error(f"{self.name} Error detected! More details: {e}")
-                return False
+                return False,f"{self.name} Error detected! More details: {e}"
+        else:
+            return False, "Please point to a database first!"
 
     @TestDecorator(bool(data["active"]), "DataBase loader not ready!")
     def point(self, record: str = None):
@@ -42,10 +51,10 @@ class dbDataManager:
                     return True
                 else:
                     LMCG().log(type="global").error(f"DataBase {record} is not ready.")
-                    return False
+                    return False,f"DataBase {record} is not ready."
             else:
                 LMCG().log(type="global").error(f"Record was incorrectly expressed! DataBase does not exist.")
-                return False
+                return False,"Record was incorrectly expressed! DataBase does not exist."
         else:
             LMCG().log(type="global").info(f"Pointer was reset.")
             self.pointer=None

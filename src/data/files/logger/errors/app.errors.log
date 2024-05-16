@@ -233,4 +233,11 @@
 2024-05-14 17:26:02 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: near "2000": syntax error
 2024-05-14 17:26:18 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl
 2024-05-14 17:27:18 - global - dbdatamanager.py:32 - ERROR     | [2] local.db Error detected! More details: no such column: zahl
+<<<<<<< Updated upstream
 2024-05-15 23:01:16 - global - __init__.py:23 - CRITICAL  | [game.__init__.py] [ERROR] Failed to import component: settingscreen.py | Error: No module named 'src./Users/david/Ultimate/halle7/src/game'
+=======
+2024-05-16 18:49:05 - global - dbdatamanager.py:35 - ERROR     | [1] local.db Error detected! More details: no such table: ISTWERT
+2024-05-16 18:49:05 - global - dbdatamanager.py:35 - ERROR     | [1] local.db Error detected! More details: no such table: ISTWERT
+2024-05-16 18:49:16 - global - dbdatamanager.py:35 - ERROR     | [1] local.db Error detected! More details: no such table: ISTWERT
+2024-05-16 19:15:33 - global - dbdatamanager.py:35 - ERROR     | [1] local.db Error detected! More details: no such column: istwert
+>>>>>>> Stashed changes
