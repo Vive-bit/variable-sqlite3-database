@@ -97,6 +97,7 @@ db.point("name_des_tables")
 # 6.0 Verwendung von easydb
 
 Die vereinfachte Version der normalen Datenbank version.
+Bietet eine deutlich kleinere möglichkeit mit der Datenbank umzugehen, aber was solls.
 
 # 6.1 import
 ```
