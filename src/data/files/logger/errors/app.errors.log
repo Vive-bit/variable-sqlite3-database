@@ -241,3 +241,9 @@
 2024-05-16 18:49:16 - global - dbdatamanager.py:35 - ERROR     | [1] local.db Error detected! More details: no such table: ISTWERT
 2024-05-16 19:15:33 - global - dbdatamanager.py:35 - ERROR     | [1] local.db Error detected! More details: no such column: istwert
 >>>>>>> Stashed changes
+2024-05-16 20:20:44 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: get_db, Message: Error while finding db, Error: DataBaseFinder.get_db() missing 1 required positional argument: 'self'
+2024-05-16 20:20:44 - global - dbmanager.py:33 - ERROR     | Couldn't find any DataBase files? Status remains unchanged.
+2024-05-16 20:21:33 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: load_db, Message: Error while loading db, Error: 'int' object has no attribute 'DATABASE_PATH'
+2024-05-16 20:21:48 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: load_db, Message: Error while loading db, Error: 'int' object has no attribute 'DATABASE_PATH'
+2024-05-16 20:22:08 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: load_db, Message: Error while loading db, Error: 'int' object has no attribute 'DATABASE_PATH'
+2024-05-16 20:22:48 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: __save__, Message: Error while saving db, Error: dbDataManager.__save__() missing 1 required positional argument: 'self'

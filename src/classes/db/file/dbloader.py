@@ -15,6 +15,7 @@ class DataBaseLoader(DBF):
         for x,y in enumerate(self.dbfiles):
             if os.path.isfile(f'{self.DATABASE_PATH}{y}'):
                 self.dbstorage[str(y).split(".")[0]]=self.load_db(x+1,y)
+
     def load_db(self,num:int=None,dbname:str=None,state:bool=False):
         try:
             DATABASE_LOCALDATE = sql.connect(f'{self.DATABASE_PATH}{dbname}', check_same_thread=False)

@@ -727,3 +727,73 @@
 2024-05-16 19:50:15 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
 2024-05-16 19:50:15 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
 >>>>>>> Stashed changes
+2024-05-16 20:20:44 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-16 20:20:44 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-16 20:20:44 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-16 20:20:44 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'istwert text'], ['gehalt', 'monat integer']])
+2024-05-16 20:20:44 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-16 20:20:44 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: get_db, Message: Error while finding db, Error: DataBaseFinder.get_db() missing 1 required positional argument: 'self'
+2024-05-16 20:20:44 - global - dbmanager.py:33 - ERROR     | Couldn't find any DataBase files? Status remains unchanged.
+2024-05-16 20:20:44 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-16 20:20:44 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-16 20:20:44 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-16 20:20:44 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-16 20:21:33 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-16 20:21:33 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-16 20:21:33 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-16 20:21:33 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'istwert text'], ['gehalt', 'monat integer']])
+2024-05-16 20:21:33 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-16 20:21:33 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: load_db, Message: Error while loading db, Error: 'int' object has no attribute 'DATABASE_PATH'
+2024-05-16 20:21:48 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-16 20:21:48 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-16 20:21:48 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-16 20:21:48 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'istwert text'], ['gehalt', 'monat integer']])
+2024-05-16 20:21:48 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-16 20:21:48 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: load_db, Message: Error while loading db, Error: 'int' object has no attribute 'DATABASE_PATH'
+2024-05-16 20:22:08 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-16 20:22:08 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-16 20:22:08 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-16 20:22:08 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'istwert text'], ['gehalt', 'monat integer']])
+2024-05-16 20:22:08 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-16 20:22:08 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: load_db, Message: Error while loading db, Error: 'int' object has no attribute 'DATABASE_PATH'
+2024-05-16 20:22:22 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-16 20:22:22 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-16 20:22:22 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-16 20:22:22 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'istwert text'], ['gehalt', 'monat integer']])
+2024-05-16 20:22:22 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-16 20:22:22 - global - dbloader.py:23 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-16 20:22:22 - global - dbmanager.py:50 - INFO      | [1] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'istwert text'). Table already exists. No new table was created.
+2024-05-16 20:22:22 - global - dbmanager.py:50 - INFO      | [1] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-16 20:22:22 - global - dbmanager.py:37 - DEBUG     | [1] local.db DataBase SQLITE3 is saving...
+2024-05-16 20:22:22 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-16 20:22:22 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-16 20:22:22 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-16 20:22:22 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-16 20:22:48 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-16 20:22:48 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-16 20:22:48 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-16 20:22:48 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'istwert text'], ['gehalt', 'monat integer']])
+2024-05-16 20:22:48 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-16 20:22:48 - global - dbloader.py:23 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-16 20:22:48 - global - dbmanager.py:50 - INFO      | [1] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'istwert text'). Table already exists. No new table was created.
+2024-05-16 20:22:48 - global - dbmanager.py:50 - INFO      | [1] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-16 20:22:48 - global - dbmanager.py:37 - DEBUG     | [1] local.db DataBase SQLITE3 is saving...
+2024-05-16 20:22:48 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-16 20:22:48 - global - dbdatamanager.py:53 - INFO      | Now pointing to local (Fetch: [1] local.db).
+2024-05-16 20:22:48 - global - fail.py:18 - ERROR     | Error detected. Fail #1, Function: __save__, Message: Error while saving db, Error: dbDataManager.__save__() missing 1 required positional argument: 'self'
+2024-05-16 20:22:48 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-16 20:22:48 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-16 20:22:48 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py
+2024-05-16 20:23:27 - global - logging.py:14 - INFO      | --//-- PROGRAM STARTUP --//--
+2024-05-16 20:23:27 - global - core.py:8 - INFO      | [SETUP] Program initializing...
+2024-05-16 20:23:27 - global - dbstructurizer.py:13 - INFO      | DataBase SQLITE3 structure was loaded (src/data/files/db/structure.db.json)
+2024-05-16 20:23:27 - global - dbstructurizer.py:15 - DEBUG     | DataBase SQLITE3 structure loaded: ([['money', 'istwert text'], ['gehalt', 'monat integer']])
+2024-05-16 20:23:27 - global - dbmanager.py:17 - INFO      | Initializing DataBase loader.
+2024-05-16 20:23:27 - global - dbloader.py:23 - INFO      | DataBase local.db in src/data/files/db/ | Successfully loaded!
+2024-05-16 20:23:27 - global - dbmanager.py:50 - INFO      | [1] local.db - Table #1 (TABLE_NAME: 'money', STRUCTURE: 'istwert text'). Table already exists. No new table was created.
+2024-05-16 20:23:27 - global - dbmanager.py:50 - INFO      | [1] local.db - Table #2 (TABLE_NAME: 'gehalt', STRUCTURE: 'monat integer'). Table already exists. No new table was created.
+2024-05-16 20:23:27 - global - dbmanager.py:37 - DEBUG     | [1] local.db DataBase SQLITE3 is saving...
+2024-05-16 20:23:27 - global - dbmanager.py:35 - INFO      | DataBase loader has finished in 0s.
+2024-05-16 20:23:27 - global - __init__.py:7 - INFO      | [game.__init__.py] Fetched components: homescreen.py, settingscreen.py
+2024-05-16 20:23:27 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: homescreen.py
+2024-05-16 20:23:27 - global - __init__.py:21 - INFO      | [game.__init__.py] TYPE2 - Successfully imported component: settingscreen.py

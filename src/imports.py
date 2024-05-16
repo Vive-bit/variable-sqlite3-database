@@ -8,7 +8,6 @@ easydb=T()
 db=dDM()
 data=configData()
 log=LMCG()
-
 '''
 import src.classes.db.file.dbcreator as c
 c.create_db("base64")

@@ -5,10 +5,11 @@ from src.classes.logger.logging import LoggingManager as LMCG
 ###############
 from src.classes.wrapper.decorator import TestDecorator
 from src.classes.db.dbmanager import data as data
-
 class dbDataManager:
     def __init__(self):
         self.pointer=None
+    def __repr__(self):
+        return f"Currently operating with pointer: {self.pointer}. Database availability status: {self.aloader}"
     @property
     def aloader(self):
         return False if not self.pointer or not bool(data["active"]) else True
