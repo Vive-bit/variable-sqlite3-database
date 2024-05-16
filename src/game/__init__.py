@@ -2,6 +2,7 @@
 import os
 import importlib
 from src.classes.logger.logging import LoggingManager as LMCG
+import src.imports
 # Get all files.
 views = [f for f in os.listdir(os.path.dirname(os.path.abspath(__file__))) if f.endswith(".py") and f != "__init__.py"]
 LMCG().log(type="global").info(f"[game.__init__.py] Fetched components: {', '.join(views)}")

@@ -1,3 +1,7 @@
+from src.classes.logger.logging import LoggingManager as LMCG
+LMCG().log(type="global").info("[SETUP] Program initializing...")
+import src.classes.db.dbmanager as dbm
+dbm.__load__()
 ### IMPORTS ###########
 from src.classes.logger.logging import LoggingManager as LMCG
 from src.classes.configparser.engine import provider as configData
