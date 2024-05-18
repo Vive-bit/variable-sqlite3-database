@@ -1,15 +1,14 @@
-# Project "Halle 7"
-A little game from Martin & David.
+# Project "variable-sqlite3-database"
+Ein einfaches Modul für zukünftige Projekte, um einen schnellen Start zu ermöglichen.
+
 
 `Repository: Private`
 
 
 # 1.0 Hilfreiche Links
-https://trinket.io/features/pygame -> Beispiel eines pygames
-https://pixlr.com/de/express/ -> Erstellen der Bilder (Einfach)
-https://pixlr.com/de/editor/ -> Erstellen der Bilder (Schwer)
+None
 
-# 2.0 Eingebaute Funktionen von Martin - Wie benutze ich diese?
+# 2.0 Eingebaute Funktionen
 
 # 2.1 Logs senden
 ```
@@ -94,51 +93,6 @@ db.point("name_des_tables")
 - Der Wert name_des_tables ist aus der `structure.db.json` zu entnehmen!
 - Wenn der String nicht da, oder None ist, so wird der Pointer zurückgesezt. (Pointer zeigt auf keine Datenbank mehr)
 
-# 6.0 Verwendung von easydb
-
-Die vereinfachte Version der normalen Datenbank version.
-Bietet eine deutlich kleinere möglichkeit mit der Datenbank umzugehen, aber was solls.
-
-# 6.1 import
-```
-from src.imports import easydb as easydb
-```
-
-# 6.2 Pointer setzen
-```
-easydb.point("name-der-datenbank")
-```
-**ACHTUNG:** Dieser Pointer funktioniert NUR MIT EASYDB, NICHT MIT DER NORMALEN DB FUNKTION!!!!!!!!
-
-**Rückgabewert:** Sendet False/True zurück, je nach dem ob es funktioniert hat. Fehler werden von selbst in die Konsole gesendet.
-
-# 6.3 Datenbank auslesen
-```
-easydb.read("name-des-tables")
-```
-
-**Rückgabewert:** False oder der gelesene Wert.
-
-# 6.4 Gesamten Datensatz löschen
-
-```
-easydb.delete("name-des-tables")
-```
-
-**Rückgabewert:** True oder False, je nach dem, ob es funktioniert hat.
-
-# 6.5 Datensatz als str hinzufügen
-
-```
-easydb.send("ISTWERT","str","name-des-tables","wert")
-```
-**ISTWERT** und **str** bleiben hierblei immer gleich.
-
-**Rückgabewert:** True oder False, je nach dem, ob es funktioniert hat.
-
-# 6.5 Datensatz als int hinzufügen
-
-```
 easydb.send("ISTWERT","int","name-des-tables","wert")
 ```
 **ISTWERT** und **int** bleiben hierblei immer gleich.
