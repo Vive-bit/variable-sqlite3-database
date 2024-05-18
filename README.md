@@ -92,9 +92,3 @@ db.point("name_des_tables")
 **Bemerkungen:**
 - Der Wert name_des_tables ist aus der `structure.db.json` zu entnehmen!
 - Wenn der String nicht da, oder None ist, so wird der Pointer zurückgesezt. (Pointer zeigt auf keine Datenbank mehr)
-
-easydb.send("ISTWERT","int","name-des-tables","wert")
-```
-**ISTWERT** und **int** bleiben hierblei immer gleich.
-
-**Rückgabewert:** True oder False, je nach dem, ob es funktioniert hat.
