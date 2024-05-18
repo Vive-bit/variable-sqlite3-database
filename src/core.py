@@ -7,6 +7,4 @@ class Start:
         import src.imports
         import src.classes.db.dbdatamanager
         import src.classes.configparser.engine
-        import main
-        import src.game
 Start()()

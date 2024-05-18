@@ -6,9 +6,7 @@ dbm.__load__()
 from src.classes.logger.logging import LoggingManager as LMCG
 from src.classes.configparser.engine import provider as configData
 from src.classes.db.dbdatamanager import dbDataManager as dDM
-from src.classes.db.face.easydb import translator as T
 
-easydb=T()
 db=dDM()
 data=configData()
 log=LMCG()

@@ -35,7 +35,7 @@ class dbDataManager:
                     self.__save__()
                 if "SELECT" in record:
                     return True,x.fetchall()
-                return True
+                return True, "Job finished."
             except Exception as e:
                 LMCG().log(type="global").error(f"{self.name} Error detected! More details: {e}")
                 return False,f"{self.name} Error detected! More details: {e}"
@@ -49,7 +49,7 @@ class dbDataManager:
                 if data["data"][record]["loading_status"]==True:
                     self.pointer=str(record)
                     LMCG().log(type="global").info(f"Now pointing to {record} (Fetch: {self.name}).")
-                    return True
+                    return True, "Job finished."
                 else:
                     LMCG().log(type="global").error(f"DataBase {record} is not ready.")
                     return False,f"DataBase {record} is not ready."
@@ -59,7 +59,7 @@ class dbDataManager:
         else:
             LMCG().log(type="global").info(f"Pointer was reset.")
             self.pointer=None
-            return True
+            return True, "Job finished."
 
 '''
 DELETE from {} WHERE id={} AND type='{}'

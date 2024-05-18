@@ -5,4 +5,4 @@ def create_db(name:str=None):
     with open(path,"w") as f:
         f.close()
     LMCG().log(type="global").info(f"new DataBase {name}.db created.")
-    return True
+    return True, "Job finished."

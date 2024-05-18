@@ -1,10 +1,8 @@
 import os
-
-class DataBaseFinder(object):
-    def __init__(self,path:str):
-        self.DATABASE_PATH:str=path
-        self.dbfiles = []
-        self.dbstorage = {}
+from src.classes.db.file.dbstruct import DataBaseStructure as DBS
+class DataBaseFinder(DBS):
+    def __init__(self,x):
+        super().__init__(x)
         self.get_db()
 
     def get_db(self):
