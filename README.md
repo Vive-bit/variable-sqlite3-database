@@ -2,7 +2,7 @@
 Ein einfaches Modul für zukünftige Projekte, um einen schnellen Start zu ermöglichen.
 
 
-`Repository: Private`
+`Repository: Public`
 
 
 # 1.0 Hilfreiche Links
